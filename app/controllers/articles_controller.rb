@@ -1,8 +1,7 @@
 class ArticlesController < ApplicationController
-
-    before_action :require_login, only: [:create, :update, :destroy, :new, :edit]
+  before_action :require_login, only: %i[create update destroy new edit]
   include ArticlesHelper
-  
+
   def index
     @articles = Article.all
   end
@@ -38,6 +37,4 @@ class ArticlesController < ApplicationController
     flash.notice = "Article '#{@article.title}' Updated!"
     redirect_to article_path(@article)
   end
-
-  
 end
