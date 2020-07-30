@@ -1,5 +1,5 @@
 class TagsController < ApplicationController
-  before_filter :require_login, only: [:destroy]
+  before_action :require_login, only: [:destroy]
   def show
     @tags = Tag.find(params[:id])
   end
