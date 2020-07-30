@@ -1,24 +1,51 @@
-# README
+# Blog App with Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a blog app that was created in ruby on rails
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby on Rails
 
-* System dependencies
+## Live Demo
 
-* Configuration
+[Live Demo Link](https://quiet-ridge-43723.herokuapp.com/)
 
-* Database creation
+Demo Account:
 
-* Database initialization
+username: admin@admin.com
+password: 12345
 
-* How to run the test suite
+## Getting Started
 
-* Services (job queues, cache servers, search engines, etc.)
+To get a local copy of the repository please run the following commands on your terminal:
 
-* Deployment instructions
+$ cd <folder>
+$ git clone https://github.com/nusretbutunay/blogger.git
 
-* ...
+## Authors
+
+👤 **Arafat Akata**
+
+- Github: [ @haraphat01](https://github.com/haraphat01)
+
+👤 **Nusret**
+
+- Github: [@Nusret](https://github.com/nusretbutunay)
+
+- Twitter: [@Nusret](https://twitter.com/nusretbutunay)
+
+- Linkedin: [Nusret Butunay](https://www.linkedin.com/in/nusretbutunay)
+
+## �� Contributing
+
+Contributions, issues and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- The Odin Project
+- Jumpstart Lab Tutorials
